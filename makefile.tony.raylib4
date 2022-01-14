@@ -1,5 +1,6 @@
 
-EMSDK=/home/tonetheman/emsdk
+HOME=/home/agcc
+EMSDK=$(HOME)/emsdk
 CFLAGS=-Wall -D_DEFAULT_SOURCE -Wno-missing-braces -Werror=pointer-arith -fno-strict-aliasing -std=gnu99 -Os -I. -Iexternal/glfw/include -Iexternal/glfw/deps/mingw -DPLATFORM_WEB -DGRAPHICS_API_OPENGL_ES2
 
 all :
